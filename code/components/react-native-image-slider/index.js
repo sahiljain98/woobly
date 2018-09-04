@@ -26,6 +26,7 @@ type Slide = {
 type PropsType = {
   images: string[],
   style?: any,
+  blurImageRadius:number,
   loop?: boolean,
   loopBothSides?: boolean,
   autoPlayWithInterval?: number,
@@ -193,7 +194,7 @@ export default class ImageSlider extends Component<PropsType, StateType> {
       <Image key={index} source={imageObject} style={[imageStyle, {
         resizeMode: 'cover',
       }]}
-      blurRadius={5} />
+        blurRadius={this.props.blurImageRadius} />
     );
 
     if (onPress) {
