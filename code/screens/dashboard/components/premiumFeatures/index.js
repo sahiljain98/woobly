@@ -16,6 +16,7 @@ export default ({ premiumPrivilagesList }) =>
         <FlatList
             numColumns={3}
             data={premiumPrivilagesList}
+            keyExtractor={(item,index)=>index.toString()}
             renderItem={({ item, index }) =>  
              <TouchableOpacity style={{ width: Dimensions.get('screen').width / 3 - 12, justifyContent: 'space-around', alignItems: 'center', margin: 4, padding: 8 }}>
             <Image

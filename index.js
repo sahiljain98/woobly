@@ -1,7 +1,7 @@
 import {AppRegistry} from 'react-native';
 
-import MainScreen from './code/screens/mainScreen';
+import Dashboard from './code/screens/dashboard';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => MainScreen);
+AppRegistry.registerComponent(appName, () => Dashboard);

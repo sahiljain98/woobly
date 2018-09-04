@@ -14,6 +14,7 @@ export default ({ images }) =>
         <FlatList
             horizontal
             data={images}
+            keyExtractor={(item,index)=>index.toString()}
             renderItem={({ item, index }) =>
                 <TouchableOpacity style={{ width: Dimensions.get('screen').width / 2 - 6, justifyContent: 'space-around', margin: 8, padding: 8, }}>
                     <Image
