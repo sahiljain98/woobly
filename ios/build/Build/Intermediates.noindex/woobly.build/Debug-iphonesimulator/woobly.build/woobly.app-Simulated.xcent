@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>7V3X352V38.org.reactjs.native.example.woobly</string>
+	<string>SY7XDXBG3X.org.reactjs.native.example.woobly</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>7V3X352V38.org.reactjs.native.example.woobly</string>
+		<string>SY7XDXBG3X.org.reactjs.native.example.woobly</string>
 	</array>
 </dict>
 </plist>
